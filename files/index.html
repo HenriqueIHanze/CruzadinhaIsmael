@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cruzadinha de Arquitetura Computacional</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Cruzadinha de Arquitetura Computacional</h1>
+  <p>Leia a pista e digite a resposta direto nas casas. Use as setas para mudar de direção.</p>
+</header>
+<main>
+  <div class="tabuleiro-wrap"><div id="tabuleiro" aria-label="Tabuleiro da cruzadinha"></div></div>
+  <div class="barra">
+    <button id="conferir">Conferir</button>
+    <button id="reiniciar" class="sec">Reiniciar</button>
+    <p id="placar" aria-live="polite"></p>
+  </div>
+  <div class="pistas">
+    <div><h2>Horizontais</h2><ol id="horizontais"></ol></div>
+    <div><h2>Verticais</h2><ol id="verticais"></ol></div>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
