@@ -1,8 +1,7 @@
-# Cruzadinha de Arquitetura Computacional
+## Cruzadinha de Arquitetura Computacional
 
 Jogo de cruzadinha que roda no navegador, criado para treinar os termos da disciplina de Arquitetura Computacional (Sprint 3). Feito só com HTML, CSS e JavaScript puros.
 
-**Jogue aqui:** https://SEU-USUARIO.github.io/arqcomp-cruzadinha/
 
 ## Como jogar
 
